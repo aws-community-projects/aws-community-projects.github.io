@@ -1,3 +1,3 @@
 # AWS Community Projects
 
-Still to setup site
+Comming soon
