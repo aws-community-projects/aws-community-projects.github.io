@@ -1,3 +1,3 @@
 # AWS Community Projects
 
-Comming soon
+Coming soon!
