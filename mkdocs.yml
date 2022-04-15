@@ -18,9 +18,9 @@ theme:
     - scheme: default
       primary: deep purple
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate 
+    - scheme: slate
       primary: green
       toggle:
         icon: material/toggle-switch
@@ -48,8 +48,11 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
 
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 # plugins:
 #   - git-revision-date
 #   - search
@@ -59,6 +62,9 @@ markdown_extensions:
 #     provider: google
 #     property: UA-XXXXXXXX-X
 
-# nav:
-#   - Overview:
-#     - index.md
+nav:
+  - Overview:
+      - index.md
+  - Community Benchmarks:
+      - community-benchmarks.md
+      - csv2ddb.md
